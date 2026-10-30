@@ -1,0 +1,15 @@
+Server Schedule: 8PM EST EVERY DAY
+Visit our website for more info: PGTOPIA.BEER
+RULES:
+1. No cheating and hacking
+2. No NSFW sprays/images, no exceptions
+3. Be cordial. Good faith back and forth between friends is funny. Being hateful towards other members is not.
+4. For other questions regarding server rules, ask the owner, P.G.T Beauregard.
+COMMANDS:
+!reverts - See list of weapon reverts
+!votemenu - Do custom votes
+!nominate - Nominate a map
+!scramble - Vote to scramble teams
+!rtv - Vote to rock the vote (vote to switch maps)
+!rtd - Roll the dice
+!vm - Adjust voicechat volume
