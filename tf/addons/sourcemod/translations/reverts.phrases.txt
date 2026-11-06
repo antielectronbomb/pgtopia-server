@@ -126,10 +126,6 @@
 	{
 		"en"	"Airblast"
 	}
-	"airstrike"
-	{
-		"en"	"Air Strike"
-	}
 	"flamethrower"
 	{
 		"en"	"All Flamethrowers"
@@ -154,6 +150,10 @@
 	{
 		"en"	"All Sentry Guns"
 	}
+	"sniperquickscope"
+	{
+		"en"	"All Sniper Quickscopes"
+	}
 	"sniperrifles"
 	{
 		"en"	"All Sniper Rifles"
@@ -165,6 +165,10 @@
 	"swords"
 	{
 		"en"	"All Swords"
+	}
+	"airstrike"
+	{
+		"en"	"Air Strike"
 	}
 	"ambassador"
 	{
@@ -250,6 +254,10 @@
 	{
 		"en"	"Cleaner's Carbine"
 	}
+	"classic"
+	{
+		"en"	"Classic"
+	}
 	"concheror"
 	{
 		"en"	"Concheror"
@@ -289,6 +297,10 @@
 	"degreaser"
 	{
 		"en"	"Degreaser"
+	}
+	"demopan"
+	{
+		"en"	"Demopan"
 	}
 	"directhit"
 	{
@@ -357,6 +369,10 @@
 	"huntsman"
 	{
 		"en"	"Huntsman"
+	}
+	"huolong"
+	{
+		"en"	"Huo-Long Heater"
 	}
 	"ironbomber"
 	{
@@ -462,6 +478,10 @@
 	{
 		"en"	"Sandvich"
 	}
+	"scorchshot"
+	{
+		"en"	"Scorch Shot"
+	}
 	"scottish"
 	{
 		"en"	"Scottish Resistance"
@@ -498,6 +518,10 @@
 	{
 		"en"	"Sticky Jumper"
 	}
+	"sunstick"
+	{
+		"en"	"Sun-on-a-Stick"
+	}
 	"sleeper"
 	{
 		"en"	"Sydney Sleeper"
@@ -505,6 +529,10 @@
 	"tankbuster"
 	{
 		"en"	"Tank Buster"
+	}
+	"thermal"
+	{
+		"en"	"Thermal Thruster"
 	}
 	"turner"
 	{
@@ -576,6 +604,10 @@
 	{
 		"en"	"Reverted to pre-toughbreak, sentry is active immediately after being unsapped"
 	}
+	"SniperQuickscope_Pre2008"
+	{
+		"en"	"Reverted to pre-February 14, 2008; can instantly headshot after zooming in (0.2 sec headshot prevention delay when zooming removed)"
+	}
 	"SniperRifle_PreLW"
 	{
 		"en"	"Reverted to pre-August 27, 2014, can jump immediately after firing a scoped shot (scope jumping)"
@@ -596,9 +628,17 @@
 	{
 		"en"	"Reverted to pre-inferno, deals full headshot damage (102) at all ranges"
 	}
+	"Ambassador_PreJune2009"
+	{
+		"en"	"Reverted to pre-June 23, 2009, deals full headshot damage (102) at all ranges, no headshot cooldown, penetrates targets"
+	}
+	"Ambassador_Release"
+	{
+		"en"	"Reverted to release, deals minicrit headshot damage at all ranges, no headshot cooldown, penetrates targets"
+	}
 	"Amputator_PreTB"
 	{
-		"en"	"Reverted to pre-toughbreak, regenerates +3 HP/s flat when active regardless if user recently took damage"
+		"en"	"Partially reverted to pre-toughbreak, regenerates +3 HP/s flat when active regardless if user recently took damage"
 	}
 	"Amputator_PreTB_Historical"
 	{
@@ -692,6 +732,14 @@
 	{
 		"en"	"Reverted to pre-matchmaking, immediately gain +35%% faster move speed and +10%% damage vuln while buffed"
 	}
+	"BuffaloSteak_PreMnvy"
+	{
+		"en"	"Reverted to pre-Manniversary, +35%% faster move speed on use, damage taken minicrits, no cooldown at full health, heal yourself by throwing the Steak"
+	}
+	"BuffaloSteak_Pre2011"
+	{
+		"en"	"Reverted to pre-July 7, 2011, +35%% faster move speed on use, damage taken minicrits, switch weapons under effects, no cooldown at full health, heal yourself by throwing the Steak"
+	}
 	"BuffaloSteak_Release"
 	{
 		"en"	"Reverted to release, +35%% faster move speed on use, damage taken minicrits, no speed cap (stacks with GRU), no cooldown at full health, heal yourself by throwing the Steak"
@@ -708,6 +756,10 @@
 	{
 		"en"	"Reverted to pre-toughbreak, -15 max health, no damage vuln, longer charge is passive"
 	}
+	"Classic_TFC"
+	{
+		"en"	"Partially reverted to the Team Fortress Classic version, full charge not required for headshots, 75 max ammo, cannot fire while moving; must stand still to fire and charge"
+	}
 	"Carbine_Release"
 	{
 		"en"	"Reverted to release, crits for 3 seconds on kill, 35%% slower fire rate (from 25%%)"
@@ -723,6 +775,14 @@
 	"CowMangler_Pre2013"
 	{
 		"en"	"Reverted to pre-Summer 2013, 5 shots, cannot be crit-boosted, -10%% damage penalty, 5%% slower reload time"
+	}
+	"CowMangler_Release"
+	{
+		"en"	"Partially reverted to release, 5 shots, cannot be crit-boosted"
+	}
+	"CowMangler_Release_Historical"
+	{
+		"en"	"Reverted to release, 5 shots, cannot be crit-boosted, uses old damage formula, +150%% max dmg rampup, higher charge shot dmg"
 	}
 	"CozyCamper_PreMYM"
 	{
@@ -754,7 +814,7 @@
 	}
 	"Darwin_Pre2013"
 	{
-		"en"	"Reverted to pre-2013, +25 max health, no damage modifiers or afterburn immunity"		
+		"en"	"Reverted to pre-2013, +25 max health, no damage modifiers or afterburn immunity"
 	}
 	"Darwin_PreJI"
 	{
@@ -768,17 +828,41 @@
 	{
 		"en"	"Reverted to pre-inferno, can refill cloak via ammo while uncloaked"
 	}
+	"Ringer_PreTB"
+	{
+		"en"	"Reverted to pre-toughbreak, same modern stats but 50%% initial dmg resist, can pick up ammo while uncloaked, 35%% less cloak from ammo boxes"
+	}
 	"Ringer_Pre2013"
 	{
 		"en"	"Reverted to pre-Summer 2013, can refill via ammo (35%% cap), 90%% damage resist for 6s, no speedboost or afterburn immunity, no debuff reduction when cloaked"
+	}
+	"Ringer_Pre2010"
+	{
+		"en"	"Reverted to pre-Jan 6, 2010; can fully pick up ammo, 90%% dmg resist for 6s, no speedboost, up to 40%% drain on early decloak, no afterburn immunity after feign, no debuff reduction when cloaked"
+	}
+	"Ringer_PostRelease"
+	{
+		"en"	"Reverted to post-release, 90%% dmg resist for 6s, no speedboost, full drain on early decloak, no afterburn immunity after feign, no debuff reduction when cloaked"
+	}
+	"Ringer_Release"
+	{
+		"en"	"Reverted to release, 90%% dmg resist for 6s, no speedboost, no drain on early decloak, no afterburn immunity after feign, no debuff reduction when cloaked"
 	}
 	"Degreaser_PreTB"
 	{
 		"en"	"Reverted to pre-toughbreak, 65%% faster weapon switch, -10%% damage, -25%% afterburn damage, no airblast cost penalty"
 	}
+	"Demopan_April2011"
+	{
+		"en"	"Restored April Fools' 2011 item set bonus, +1000%% chance of trading your Stout Shako for 2 refined. Equip the Chargin' Targe and Frying Pan to gain the bonus, cosmetics not required"
+	}
 	"DirectHit_PreJI"
 	{
 		"en"	"Reverted to pre-inferno, deals minicrits to airblasted targets again"
+	}
+	"DirectHit_PreDec2009"
+	{
+		"en"	"Reverted to pre-December 22, 2009; mini-crits all airborne and floating underwater targets regardless of cause; explosive jumps not needed for mini-crits"
 	}
 	"Disciplinary_PreMYM"
 	{
@@ -880,6 +964,14 @@
 	{
 		"en"	"Restored taunt bug to pre-December 20, 2013; repeatedly and rapidly press taunt attack with an enemy Huntsman Sniper to stun each other forever as humanly as possible"
 	}
+	"HuoLong_PreMYM"
+	{
+		"en"	"Reverted to pre-matchmaking, 15 fire pulse dmg (from 12), no dmg penalty, no dmg bonus against burning players, -6 ammo/sec while spun up"
+	}
+	"HuoLong_Release"
+	{
+		"en"	"Reverted to release, 15 fire pulse dmg (from 12), no dmg penalty, no dmg bonus against burning players, -6 ammo/sec while spun up, firing does not consume additional ammo"
+	}
 	"IronBomber_Pre2022"
 	{
 		"en"	"Reverted to pre-July 7, 2022; ~2x larger grenade hitbox"
@@ -962,15 +1054,19 @@
 	}
 	"Pomson_PreGM"
 	{
-		"en"	"Increased hitbox size, passes through team, no charge drain fall-off, pierces bullet resists, ignites friendly Huntsman arrows"
+		"en"	"Partially reverted to pre-GM, increased hitbox size, passes through team, no charge drain fall-off, pierces bullet resists, ignites friendly Huntsman arrows"
 	}
 	"Pomson_Release"
 	{
-		"en"	"Increased hitbox size, penetrates targets, no charge drain fall-off, pierces bullet resists, ignites friendly Huntsman arrows, drains cloak per-tick if target is disguised or cloaked"
+		"en"	"Partially reverted to release, increased hitbox size, penetrates targets, no charge drain fall-off, pierces bullet resists, ignites friendly Huntsman arrows, drains cloak per-tick if target is disguised or cloaked"
 	}
-	"Pomson_PreMYM"
+	"Pomson_PreGM_Historical"
 	{
-		"en"	"Increased hitbox size, passes through team, pierces bullet resists, ignites friendly Huntsman arrows"
+		"en"	"Reverted to pre-gunmettle, increased hitbox size, passes thru team buildings, no charge drain fall-off, pierces bullet resists, ignites friendly Huntsman arrows, old damage formula"
+	}
+	"Pomson_Release_Historical"
+	{
+		"en"	"Reverted to release, increased hitbox size, penetrates targets, no charge drain fall-off, pierces bullet resists, ignites friendly Huntsman arrows, old damage formula, drains cloak per-tick if target is disguised or cloaked"
 	}
 	"Powerjack_PreGM"
 	{
@@ -1042,15 +1138,27 @@
 	}
 	"Bison_PreMYM"
 	{
-		"en"	"Increased hitbox size (can hit same target many times), pierces bullet resists, ignites friendly Huntsman arrows"
+		"en"	"Partially reverted to pre-matchmaking, increased hitbox size (can hit same target many times), pierces bullet resists, ignites friendly Huntsman arrows"
+	}
+	"Bison_PreTB"
+	{
+		"en"	"Reverted to pre-toughbreak, increased hitbox size (can hit same target many times), pierces bullet resists, ignites friendly Huntsman arrows, old damage formula"
 	}
 	"RocketJmp_Pre2013"
 	{
 		"en"	"Reverted to pre-2013, grants immunity to self-damage from Equalizer/Escape Plan taunt"
 	}
+	"RocketJmp_Pre2011"
+	{
+		"en"	"Reverted to December 22, 2010: no self blast damage including from Equalizer/Escape Plan taunt, +100%% bullet, explosive, and fire damage vulns, wearer can pick up intel, random crits, old visuals & sounds"
+	}
+	"RocketJmp_Oct2010"
+	{
+		"en"	"Reverted to October 27, 2010: no self blast damage including from Equalizer/Escape Plan taunt, -100 max health, wearer can pick up intel, random crits, old visuals & sounds"
+	}
 	"RocketJmp_Release"
 	{
-		"en"	"Reverted to release, immune to all self blast damage including from Equalizer/Escape Plan taunt, wearer can pick up intel, random crits"
+		"en"	"Reverted to release, immune to all self blast damage including from Equalizer/Escape Plan taunt, wearer can pick up intel, random crits, old visuals & sounds"
 	}
 	"Saharan_Release"
 	{
@@ -1083,6 +1191,10 @@
 	"Sandvich_Pre2012"
 	{
 		"en"	"Reverted to pre-February 14, 2012; can heal yourself by picking up your own thrown Sandviches"
+	}
+	"ScorchShot_July2015"
+	{
+		"en"	"Reverted to pre-July 6, 2015 patch; no -35%% self damage force penalty (higher blast jumping)"
 	}
 	"Scottish_Release"
 	{
@@ -1162,11 +1274,27 @@
 	}
 	"StkJumper_Pre2013_Intel"
 	{
-		"en"	"Reverted to Manniversary update, can have 8 stickybombs out at once, wearer can pick up intel"
+		"en"	"Reverted to Manniversary update, can have 8 stickybombs out at once, wearer can pick up intel, old explosion visuals & sounds"
 	}
 	"StkJumper_Pre2011"
 	{
-		"en"	"Reverted to December 22, 2010: can have 8 stickybombs out at once, wearer can pick up intel, +100%% bullet, blast, and fire damage vulns, immune to self blast damage, random crits"
+		"en"	"Reverted to December 22, 2010: can have 8 stickybombs out at once, wearer can pick up intel, +100%% bullet, blast, and fire damage vulns, immune to self blast damage, random crits, old visuals & sounds"
+	}
+	"StkJumper_ReleaseDay2"
+	{
+		"en"	"Reverted to October 28, 2010: can have 8 stickybombs out at once again, wearer can pick up intel, -75 max health, immune to self blast damage, random crits, old visuals & sounds"
+	}
+	"SunOnAStick_PreMYM"
+	{
+		"en"	"Reverted to pre-matchmaking, no fire dmg resist while deployed"
+	}
+	"SunOnAStick_PreHatless"
+	{
+		"en"	"Reverted to pre-Hatless Update, minicrits vs burning players, -15%% dmg penalty, no fire dmg resist while deployed"
+	}
+	"SunOnAStick_Release"
+	{
+		"en"	"Reverted to release, no crit bonus, +35%% dmg done, -45%% dmg (-25.75%% total dmg) vs non-burning players, no fire dmg resist while deployed"
 	}
 	"Sleeper_PreBM"
 	{
@@ -1176,9 +1304,17 @@
 	{
 		"en"	"Reverted to pre-gunmettle, apply jarate for 8 secs when above 50%% charge to target, no headshot bonuses"
 	}
+	"Sleeper_Release"
+	{
+		"en"	"Reverted to release, apply jarate for 8 secs when above 50%% charge to target (even if target is invuln), penetrate targets at full charge, random crits, no headshot bonuses, no charge rate increase"
+	}
 	"TankBuster_Release"
 	{
 		"en"	"Restored release item set bonus, +20%% sentry damage resist on wearer. Equip the Black Box and Battalion's Backup to gain the bonus, the hat is not required"
+	}
+	"ThermalThrust_May2025"
+	{
+		"en"	"Reverted to pre-May 1, 2025; all bunnyhops when using a charge keeps stomp passives"
 	}
 	"Turner_PreTB"
 	{

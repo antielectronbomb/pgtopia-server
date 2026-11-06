@@ -20,33 +20,32 @@
 	{
 		"Signatures"
 		{
-			// "PlayerJarated", not the precache function
 			"JarExplode"
 			{
 				"library"	"server"
 				"linux"		"@_Z10JarExplodeiP9CTFPlayerP11CBaseEntityS2_RK6Vectorif7ETFCondfPKcS8_"
 				"windows"	"\x2A\x2A\x2A\x2A\x2A\x2A\x83\xE4\xF0\x83\xC4\x04\x55\x8B\x6B\x04\x89\x6C\x24\x04\x8B\xEC\x81\xEC\xE8\x02\x00\x00"
 			}
-			// "set_cannot_disguise", shorter function
+			// "set_cannot_disguise"
 			"CTFPlayer::CanDisguise"
 			{
 				"library"	"server"
 				"linux"		"@_ZN9CTFPlayer11CanDisguiseEv"
-				"windows"	"\x55\x8B\xEC\x51\x56\x8B\xF1\x8B\x06\x8B\x80\x2A\x2A\x2A\x2A\xFF\xD0\x84\xC0\x74\x2A\x83\xBE\x2A\x2A\x2A\x2A\x08"
+				"windows"	"\x55\x8B\xEC\x51\x56\x8B\xF1\x8B\x06\x8B\x80\x0C\x01\x00\x00"
 			}
 			// "mult_player_aiming_movespeed"
 			"CTFPlayer::TeamFortress_CalculateMaxSpeed"
 			{
 				"library"	"server"
+				"windows"	"\x55\x8B\xEC\x83\xEC\x18\x56\x8B\xF1\x8B\x0D\x2A\x2A\x2A\x2A"
 				"linux"		"@_ZNK9CTFPlayer30TeamFortress_CalculateMaxSpeedEb"
-				"windows"	"\x55\x8B\xEC\x83\xEC\x18\x56\x8B\xF1\x8B\x0D"
 			}
-			// this is called in ammo pack touch functions
+
 			"CTFPlayer::AddToSpyKnife"
 			{
-				"library"	"server"
-				"linux"		"@_ZN9CTFPlayer13AddToSpyKnifeEfb"
-				"windows"	"\x55\x8B\xEC\x6A\x07"
+				"library" "server"
+				"windows" "\x55\x8B\xEC\x6A\x07"
+				"linux"   "@_ZN9CTFPlayer13AddToSpyKnifeEfb"
 			}
 			// "arrow_heals_buildings"
 			"CTFProjectile_Arrow::BuildingHealingArrow"
@@ -62,21 +61,19 @@
 				"windows"	"\x55\x8B\xEC\x83\xEC\x7C\x56\x8B\xF1\x8B\x06"
 				"linux"		"@_ZN9CTFPlayer10RegenThinkEv"
 			}
-			// "grenades1_resupply_denied"
+
 			"CTFPlayer::GiveAmmo"
 			{
 				"library"	"server"
 				"windows"	"\x55\x8B\xEC\x53\x56\x8B\x75\x2A\x8B\xD9\x57\x8B\x7D\x2A\x89\x75"
 				"linux"		"@_ZN9CTFPlayer8GiveAmmoEiib11EAmmoSource"
 			}
-			// "enables_aoe_heal" leads to CTFPlayerShared::OnAddTaunting
-			// below there are calls to same function with 6 and 1 as arguments, respectively
-			// in the if block there is a call to DrainAmmo
+			// "enables_aoe_heal" leads to CTFPlayerShared::OnAddTaunting, which has a call to DrainAmmo
 			"CTFLunchBox::DrainAmmo"
 			{
 				"library"	"server"
+				"windows"	"\x55\x8B\xEC\x56\x57\x8B\xF9\xE8\x2A\x2A\x2A\x2A\x8B\xF0\x85\xF6\x0F\x84\x2A\x2A\x2A\x2A"
 				"linux"		"@_ZN11CTFLunchBox9DrainAmmoEb"
-				"windows"	"\x55\x8B\xEC\x56\x57\x8B\xF9\xE8\x2A\x2A\x2A\x2A\x8B\xF0\x85\xF6\x0F\x84"
 			}
 			// "set_taunt_saharan_spy"
 			"CTFPlayer::OnTauntSucceeded"
@@ -93,19 +90,19 @@
 				"windows"	"\x55\x8B\xEC\x83\xEC\x48\x56\x8B\x75"
 				"linux"		"@_ZN14AI_CriteriaSet14AppendCriteriaEPKcS1_f"
 			}
-			// "sapper_degenerates_buildings", find xref to shortest function
+			// "Building_Sentrygun.Disabled", first function call in subroutine
 			"CBaseObject::GetReversesBuildingConstructionSpeed"
 			{
 				"library"	"server"
+				"windows"	"\xE8\x2A\x2A\x2A\x2A\x85\xC0\x75\x2A\xD9\xEE\xC3" // "Building_Sentrygun.Idle3", go to one that isn't precache, get first function call
 				"linux"		"@_ZN11CBaseObject36GetReversesBuildingConstructionSpeedEv"
-				"windows"	"\xE8\x2A\x2A\x2A\x2A\x85\xC0\x75\x2A\xD9\xEE\xC3"
 			}
-			// "models/weapons/w_models/w_toolbox.mdl", not in precache, function call with this string
+			// "models/weapons/w_models/w_toolbox.mdl", not in pre-cache, first func call below
 			"CBaseObject::CreateAmmoPack"
 			{
 				"library"	"server"
-				"linux"		"@_ZN11CBaseObject14CreateAmmoPackEPKci"
 				"windows"	"\x55\x8B\xEC\x83\xEC\x20\x56\x57\x8B\xF9\x8B\x87\x2A\x2A\x2A\x2A\xC1\xE8\x0B"
+				"linux"		"@_ZN11CBaseObject14CreateAmmoPackEPKci"
 			}
 			// "nutsnbolts_build", don't use precache subroutine
 			"CBaseObject::OnConstructionHit"
@@ -128,12 +125,12 @@
 				"windows"	"\x55\x8B\xEC\x83\xEC\x08\x56\x8B\xF1\x57\x6A\x01\x6A\x00"
 				"linux"		"@_ZN16CTFWeaponBaseGun15GetWeaponSpreadEv"
 			}
-			// "mod_cloak_no_regen_from_items", shorter function
+			// "mod_cloak_no_regen_from_items"
 			"CTFPlayerShared::AddToSpyCloakMeter"
 			{
 				"library"	"server"
-				"linux"		"@_ZN15CTFPlayerShared18AddToSpyCloakMeterEfb"
 				"windows"	"\x53\x8B\xDC\x83\xEC\x08\x83\xE4\xF0\x83\xC4\x04\x55\x8B\x6B\x2A\x89\x6C\x24\x2A\x8B\xEC\x83\xEC\x28\x56\x57\x8B\xF9\x6A\x39"
+				"linux"		"@_ZN15CTFPlayerShared18AddToSpyCloakMeterEfb"
 			}
 			// "mult_medigun_uberchargerate"
 			"CWeaponMedigun::FindAndHealTargets"
@@ -335,15 +332,10 @@
 				"windows"	"430"
 				"linux"		"437"
 			}
-			"CTFPlayer::Event_KilledOther"
+			"CTFGrenadePipebombProjectile::Detonate"
 			{
-				"windows"	"69"
-				"linux"		"70"
-			}
-			"CTFPlayer::TakeHealth"
-			{
-				"windows"	"66"
-				"linux"		"67"
+				"windows"	"237"
+				"linux"		"238"
 			}
 			"CBaseCombatWeapon::Deploy"
 			{
@@ -365,9 +357,9 @@
 			// ║       Private/Protected Member Offsets       ║
 			// ╚══════════════════════════════════════════════╝
 			// Add offsets below for when you need OS specific offsets for a m_ member on a entity
-			// This is used for Set/GetEntData and stuff like Set/GetEntDataFloat that we cannot
+			// This is used for Set/GetEntData and stuff like Set/GetEntDataFloat that we cannot 
 			// find in datamaps and netprop files.
-			// If it's a m_h* member that you intend to add offset for.
+			// If it's a m_h* member that you intend to add offset for. 
 			// Then use the "*2" version of the methods, for example: GetEntDataEnt2 when using the offset.
 			//
 			// See the Huntsman Staring Contest revert for a example of usage with a normal m_ member.
@@ -381,7 +373,7 @@
 			// offset in Ghidra and then look at the Listing view. As of the October 30, 2025 patch it's
 			// f3 0f 11 86 44 21 00 00, notice how memory is displayed in little endian, but you can see the 44 21 turns into 21 44)
 
-			"CTFPlayer.m_flTauntNextStartTime"
+			"CTFPlayer.m_flTauntNextStartTime" 
 			{
 				"windows"	"8516"
 				"linux"		"8524"
@@ -391,20 +383,10 @@
 				"windows"	"76"
 				"linux"		"76"
 			}
-			"CTakeDamageInfo.m_hWeapon"
-			{
-				"windows"	"44"
-				"linux"		"44"
-			}
 			"CTakeDamageInfo.m_flDamage"
 			{
 				"windows"	"48"
 				"linux"		"48"
-			}
-			"CTakeDamageInfo.m_bitsDamageType"
-			{
-				"windows"	"60"
-				"linux"		"60"
 			}
 			"CTakeDamageInfo.m_iDamageCustom"
 			{
@@ -693,41 +675,13 @@
 				"this"		"entity"
 				"return"	"void"
 			}
-			"CTFPlayer::Event_KilledOther"
+			"CTFGrenadePipebombProjectile::Detonate"
 			{
-				"offset"	"CTFPlayer::Event_KilledOther"
-				"hooktype"	"entity"
-				"this"		"entity"
+				"offset"	"CTFGrenadePipebombProjectile::Detonate"
+				"callconv"	"thiscall"
 				"return"	"void"
-				"arguments"
-				{
-					"pVictim"
-					{
-						"type"	"cbaseentity"
-					}
-					"info"
-					{
-						"type"	"int"
-					}
-				}
-			}
-			"CTFPlayer::TakeHealth"
-			{
-				"offset"	"CTFPlayer::TakeHealth"
-				"hooktype"	"entity"
 				"this"		"entity"
-				"return"	"int"
-				"arguments"
-				{
-					"flHealth"
-					{
-						"type"	"float"
-					}
-					"bitsDamageType"
-					{
-						"type"	"int"
-					}
-				}
+				"hooktype"	"entity"
 			}
 			"CBaseCombatWeapon::Deploy"
 			{
@@ -880,7 +834,7 @@
 						"type"	"int"
 					}
 				}
-			}
+			}			
 			"AI_CriteriaSet::AppendCriteria"
 			{
 				"signature"	"AI_CriteriaSet::AppendCriteria"
