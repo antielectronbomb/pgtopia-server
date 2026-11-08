@@ -7,6 +7,7 @@
 // sd_doomsday_event
 
 // VANILLA & FASTDL MAPS
+arena_watchtower
 cp_5gorge
 cp_badlands
 cp_brew
