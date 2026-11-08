@@ -7,7 +7,19 @@
 // sd_doomsday_event
 
 // VANILLA & FASTDL MAPS
+arena_badlands
+arena_barn_v2
+arena_byre
+arena_coavel
+arena_goldtooth_rc4
+arena_granary
+arena_lumberyard
+arena_nucleus
+arena_offblast_final
+arena_ravine
+arena_sawmill
 arena_watchtower
+arena_well
 cp_5gorge
 cp_badlands
 cp_brew
@@ -33,6 +45,11 @@ cp_sunshine
 cp_vanguard
 cp_well
 cp_yukon_final
+ctf_barn_fix4
+//ctf_convoy_v2
+ctf_convoy_v4
+ctf_doublecross
+ctf_landfall
 ctf_turbine
 koth_acreage_final
 koth_badlands
@@ -48,6 +65,7 @@ koth_lazarus
 koth_nucleus
 koth_sawmill
 koth_suijin
+koth_trainsawlaser_v3
 koth_viaduct
 pl_aquarius
 pl_badwater
