@@ -65,7 +65,6 @@ koth_lazarus
 koth_nucleus
 koth_sawmill
 koth_suijin
-koth_trainsawlaser_v3
 koth_viaduct
 pl_aquarius
 pl_badwater
