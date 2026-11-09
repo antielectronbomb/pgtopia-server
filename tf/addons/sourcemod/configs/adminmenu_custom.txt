@@ -8,5 +8,20 @@
 
 "Commands"
 {
+    "ServerCommands"
+    {
+        "Force Team Scramble"
+        {
+            "cmd"        "mp_scrambleteams"
+            "admin"      "sm_kick"
+            "execute"    "server"
+        }
 
+        "Force a Vote Team Scramble"
+        {
+            "cmd"        "sm_forcescramble"
+            "admin"      "sm_kick"
+            "execute"    "player"
+        }
+    }
 }
