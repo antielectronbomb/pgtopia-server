@@ -63,6 +63,7 @@ koth_king
 koth_lakeside_final
 koth_lazarus
 koth_nucleus
+koth_pitfall_final1a
 koth_sawmill
 koth_suijin
 koth_viaduct
@@ -76,6 +77,7 @@ pl_frontier_final
 pl_goldrush
 pl_hoodoo
 pl_pier
+pl_ranch_b5
 pl_snowycoast
 pl_swiftwater_final1
 pl_thundermountain
