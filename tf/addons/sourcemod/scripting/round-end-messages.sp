@@ -176,6 +176,7 @@ void PrintChatMessageAll(const char[] message, any...)
     }
 }
 
+
 void LoadMapMessage()
 {
     g_MapMessage[0] = '\0';
@@ -195,10 +196,35 @@ void LoadMapMessage()
         return;
     }
 
-    if (kv.JumpToKey("MapMessages", false) && kv.JumpToKey(map, false))
+    if (kv.JumpToKey("MapMessages", false))
     {
-        kv.GetString("message", g_MapMessage, sizeof(g_MapMessage));
+        if (kv.JumpToKey(map, false))
+        {
+            kv.GetString("message", g_MapMessage, sizeof(g_MapMessage));
+        }
+        else
+        {
+            char sectionName[PLATFORM_MAX_PATH];
 
+            if (kv.GotoFirstSubKey(false))
+            {
+                do
+                {
+                    kv.GetSectionName(sectionName, sizeof(sectionName));
+
+                    if (StrEqual(sectionName, map, false))
+                    {
+                        kv.GetString("message", g_MapMessage, sizeof(g_MapMessage));
+                        break;
+                    }
+                }
+                while (kv.GotoNextKey(false));
+            }
+        }
+    }
+
+    if (g_MapMessage[0] != '\0')
+    {
         PrintToServer("[RoundEndMessages] Loaded map-specific message for: %s", map);
     }
     else
