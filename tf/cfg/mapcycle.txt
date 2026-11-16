@@ -29,6 +29,7 @@ cp_dustbowl
 cp_egypt
 cp_fastlane
 cp_foundry
+cp_freaky_fair
 cp_freight_final1
 cp_gorge
 cp_granary
