@@ -1,0 +1,1065 @@
+// Simplified Chinese translation done by:
+// Eric Zhang	https://steamcommunity.com/id/ericzhang456/
+
+"Phrases"
+{
+	// class names
+	// tf/resource/tf_schinese.txt:27-35
+	"SCOUT"
+	{
+		"chi"	"侦察兵"
+	}
+	"SNIPER"
+	{
+		"chi"	"狙击手"
+	}
+	"SOLDIER"
+	{
+		"chi"	"士兵"
+	}
+	"DEMOMAN"
+	{
+		"chi"	"爆破手"
+	}
+	"MEDIC"
+	{
+		"chi"	"医生"
+	}
+	"HEAVY"
+	{
+		"chi"	"机枪手"
+	}
+	"PYRO"
+	{
+		"chi"	"火焰兵"
+	}
+	"SPY"
+	{
+		"chi"	"间谍"
+	}
+	"ENGINEER"
+	{
+		"chi"	"工程师"
+	}
+
+	// ui
+	"REVERT_LOADOUT_CHANGE_INIT"
+	{
+		"chi"	"目前配置开启的武器回调:"
+	}
+	"REVERT_LOADOUT_CHANGE_DISABLE_HINT"
+	{
+		"chi"	"用 !revert 菜单或 !toggleinfo 关闭这些信息"
+	}
+	"REVERT_REVERTS_DISABLED"
+	{
+		"chi"	"武器回调已关闭"
+	}
+	"REVERT_PRINT_TO_CONSOLE_HINT"
+	{
+		"chi"	"武器回调信息已打印到控制台"
+	}
+	"REVERT_ENABLED_REVERTS_HINT"
+	{
+		"chi"	"这个服务器上开启的武器回调:"
+	}
+	"REVERT_EMPTY_REVERTS"
+	{
+		"chi"	"没有开启武器回调的武器"
+	}
+	"REVERT_INVALID_TEAM"
+	{
+		"chi"	"你必须加入一个团队才能使用这个命令"
+	}
+	"REVERT_INVALID_CLASS"
+	{
+		"chi"	"你必须选择一个兵种才能使用这个命令"
+	}
+	"REVERT_ENABLED_CLASS_REVERTS_HINT"
+	{
+		"chi"	"为%t开启的武器回调:"
+	}
+	"REVERT_EMPTY_CLASS_REVERTS"
+	{
+		"chi"	"没有为%t开启的武器回调"
+	}
+	"REVERT_LOADOUT_CHANGE_ENABLED"
+	{
+		"chi"	"已打开配置更改时武器回调的显示，下一次配置更改时会显示目前配置所开启的武器回调"
+	}
+	"REVERT_LOADOUT_CHANGE_DISABLED"
+	{
+		"chi"	"已关闭配置更改时武器回调的显示，用 !toggleinfo 或 !reverts 菜单开启"
+	}
+	"REVERT_MENU_TITLE"
+	{
+		"chi"	"武器回调"
+	}
+	"REVERT_MENU_SHOW_CLASSINFO"
+	{
+		"chi"	"显示目前兵种的武器回调"
+	}
+	"REVERT_MENU_SHOW_ALL"
+	{
+		"chi"	"显示服务器上所有开启的武器回调"
+	}
+	"REVERT_MENU_TOGGLE_LOADOUT_CHANGE"
+	{
+		"chi"	"打开/关闭配置更改时武器回调显示"
+	}
+
+	// item names
+	"airblast"
+	{
+		// https://wiki.teamfortress.com/wiki/Compression_blast/zh-hans
+		"chi"	"压缩空气"
+	}
+	"airstrike"
+	{
+		// https://wiki.teamfortress.com/wiki/Air_Strike/zh-hans
+		"chi"	"空袭火箭筒"
+	}
+	"miniramp"
+	{
+		// https://wiki.teamfortress.com/wiki/Minigun/zh-hans
+		"chi"	"所有转轮机枪"
+	}
+	"swords"
+	{
+		"chi"	"所有剑"
+	}
+	"ambassador"
+	{
+		// https://wiki.teamfortress.com/wiki/Ambassador/zh-hans
+		"chi"	"大使手枪"
+	}
+	"amputator"
+	{
+		// https://wiki.teamfortress.com/wiki/Amputator/zh-hans
+		"chi"	"器官切割器"
+	}
+	"atomizer"
+	{
+		// https://wiki.teamfortress.com/wiki/Atomizer/zh-hans
+		"chi"	"原子能球棒"
+	}
+	"axtinguish"
+	{
+		// https://wiki.teamfortress.com/wiki/Axtinguisher/zh-hans
+		"chi"	"火焰战斧"
+	}
+	"backburner"
+	{
+		// https://wiki.teamfortress.com/wiki/Backburner/zh-hans
+		"chi"	"偷袭烈焰喷射器"
+	}
+	"basejump"
+	{
+		// https://wiki.teamfortress.com/wiki/B.A.S.E._Jumper/zh-hans
+		"chi"	"极限降落伞"
+	}
+	"babyface"
+	{
+		// https://wiki.teamfortress.com/wiki/Baby_Face%27s_Blaster/zh-hans
+		"chi"	"娃娃脸的冲击波"
+	}
+	"beggars"
+	{
+		// https://wiki.teamfortress.com/wiki/Beggar%27s_Bazooka/zh-hans
+		"chi"	"乞丐的火箭筒"
+	}
+	"blackbox"
+	{
+		// https://wiki.teamfortress.com/wiki/Black_box/zh-hans
+		"chi"	"黑匣子"
+	}
+	"bonk"
+	{
+		// https://wiki.teamfortress.com/wiki/Bonk!_Atomic_Punch/zh-hans
+		"chi"	"原子能饮料"
+	}
+	"booties"
+	{
+		// https://wiki.teamfortress.com/wiki/Ali_Baba%27s_Wee_Booties/zh-hans
+		// https://wiki.teamfortress.com/wiki/Bootlegger/zh-hans
+		"chi"	"阿里巴巴的尖头靴和海盗头子的假腿"
+	}
+	"brassbeast"
+	{
+		// https://wiki.teamfortress.com/wiki/Brass_Beast/zh-hans
+		"chi"	"黄铜猛兽"
+	}
+	"bushwacka"
+	{
+		// https://wiki.teamfortress.com/wiki/Bushwacka/zh-hans
+		"chi"	"灌木丛"
+	}
+	"buffalosteak"
+	{
+		// https://wiki.teamfortress.com/wiki/Buffalo_Steak_Sandvich/zh-hans
+		"chi"	"水牛排三明治"
+	}
+	"targe"
+	{
+		// https://wiki.teamfortress.com/wiki/Chargin%27_Targe/zh-hans
+		"chi"	"冲锋盾"
+	}
+	"claidheamh"
+	{
+		// https://wiki.teamfortress.com/wiki/Claidheamh_M%C3%B2r/zh-hans
+		"chi"	"摩尔巨剑"
+	}
+	"carbine"
+	{
+		// https://wiki.teamfortress.com/wiki/Cleaner%27s_Carbine/zh-hans
+		"chi"	"扫荡者卡宾"
+	}
+	"concheror"
+	{
+		// https://wiki.teamfortress.com/wiki/Concheror/zh-hans
+		"chi"	"征服者战旗"
+	}
+	"cowmangler"
+	{
+		// https://wiki.teamfortress.com/wiki/Cow_Mangler_5000/zh-hans
+		"chi"	"绞牛机 5000"
+	}
+	"cozycamper"
+	{
+		// https://wiki.teamfortress.com/wiki/Cozy_Camper/zh-hans
+		"chi"	"惬意蹲坑汉"
+	}
+	"critcola"
+	{
+		// https://wiki.teamfortress.com/wiki/Crit-a-Cola/zh-hans
+		"chi"	"爆击可乐"
+	}
+	"crocostyle"
+	{
+		// https://wiki.teamfortress.com/wiki/Croc-o-Style_Kit/zh-hans
+		"chi"	"鳄鱼猎手"
+	}
+	"dalokohsbar"
+	{
+		// https://wiki.teamfortress.com/wiki/Dalokohs_Bar/zh-hans
+		"chi"	"达勒克斯巧克力块"
+	}
+	"darwin"
+	{
+		// https://wiki.teamfortress.com/wiki/Darwin%27s_Danger_Shield/zh-hans
+		"chi"	"达尔文的危险之盾"
+	}
+	"ringer"
+	{
+		// https://wiki.teamfortress.com/wiki/Dead_Ringer/zh-hans
+		"chi"	"死亡之铃"
+	}
+	"degreaser"
+	{
+		// https://wiki.teamfortress.com/wiki/Degreaser/zh-hans
+		"chi"	"脱油剂"
+	}
+	"disciplinary"
+	{
+		// https://wiki.teamfortress.com/wiki/Disciplinary_Action/zh-hans
+		"chi"	"指挥官的军鞭"
+	}
+	"dragonfury"
+	{
+		// https://wiki.teamfortress.com/wiki/Dragon%27s_Fury/zh-hans
+		"chi"	"龙之怒焰"
+	}
+	"enforcer"
+	{
+		// https://wiki.teamfortress.com/wiki/Enforcer/zh-hans
+		"chi"	"执法者"
+	}
+	"equalizer"
+	{
+		// https://wiki.teamfortress.com/wiki/Equalizer/zh-hans
+		// https://wiki.teamfortress.com/wiki/Escape_Plan/zh-hans
+		"chi"	"十字镐和逃生计划镐"
+	}
+	"eureka"
+	{
+		// https://wiki.teamfortress.com/wiki/Eureka_Effect/zh-hans
+		"chi"	"传送扳手"
+	}
+	"eviction"
+	{
+		// https://wiki.teamfortress.com/wiki/Eviction_Notice/zh-hans
+		"chi"	"驱逐警告"
+	}
+	"expert"
+	{
+		// https://wiki.teamfortress.com/wiki/Expert's_Ordnance/zh-hans
+		"chi"	"爆破专家"
+	}
+	"fiststeel"
+	{
+		// https://wiki.teamfortress.com/wiki/Fists_of_Steel/zh-hans
+		"chi"	"钢铁手套"
+	}
+	"guillotine"
+	{
+		// https://wiki.teamfortress.com/wiki/Flying_Guillotine/zh-hans
+		"chi"	"混混的菜刀"
+	}
+	"gasjockey"
+	{
+		// https://wiki.teamfortress.com/wiki/Gas_Jockey's_Gear/zh-hans
+		"chi"	"瓦斯操控者"
+	}
+	"glovesru"
+	{
+		// https://wiki.teamfortress.com/wiki/Gloves_of_Running_Urgently/zh-hans
+		"chi"	"紧急逃跑手套"
+	}
+	"gunboats"
+	{
+		// https://wiki.teamfortress.com/wiki/Gunboats/zh-hans
+		"chi"	"炮艇"
+	}
+	"zatoichi"
+	{
+		// https://wiki.teamfortress.com/wiki/Half-Zatoichi/zh-hans
+		"chi"	"座头市之刀"
+	}
+	"hibernate"
+	{
+		// https://wiki.teamfortress.com/wiki/Hibernating_Bear/zh-hans
+		"chi"	"冬眠的熊"
+	}
+	"jag"
+	{
+		// http://wiki.teamfortress.com/wiki/Jag/zh-hans
+		"chi"	"尖齿扳手"
+	}
+	"liberty"
+	{
+		// https://wiki.teamfortress.com/wiki/Liberty_Launcher/zh-hans
+		"chi"	"自由推进炮"
+	}
+	"lochload"
+	{
+		// https://wiki.teamfortress.com/wiki/Loch-n-Load/zh-hans
+		"chi"	"双管榴弹发射器"
+	}
+	"cannon"
+	{
+		// https://wiki.teamfortress.com/wiki/Loose_Cannon/zh-hans
+		"chi"	"脱缰巨炮"
+	}
+	"madmilk"
+	{
+		// https://wiki.teamfortress.com/wiki/Mad_Milk/zh-hans
+		"chi"	"疯狂的牛奶"
+	}
+	"gardener"
+	{
+		// https://wiki.teamfortress.com/wiki/Market_Gardener/zh-hans
+		"chi"	"市场花园铁锹"
+	}
+	"natascha"
+	{
+		// https://wiki.teamfortress.com/wiki/Natascha/zh-hans
+		"chi"	"娜塔莎转轮机枪"
+	}
+	"panic"
+	{
+		// https://wiki.teamfortress.com/wiki/Panic_Attack/zh-hans
+		"chi"	"恐慌打击"
+	}
+	"persuader"
+	{
+		// https://wiki.teamfortress.com/wiki/Persian_Persuader/zh-hans
+		"chi"	"波斯弯刀"
+	}
+	"pomson"
+	{
+		// https://wiki.teamfortress.com/wiki/Pomson_6000/zh-hans
+		"chi"	"歼灭者 6000"
+	}
+	"powerjack"
+	{
+		// https://wiki.teamfortress.com/wiki/Powerjack/zh-hans
+		"chi"	"强力千斤顶"
+	}
+	"pocket"
+	{
+		// https://wiki.teamfortress.com/wiki/Pretty_Boy%27s_Pocket_Pistol/zh-hans
+		"chi"	"帅气男孩的袖珍手枪"
+	}
+	"quickfix"
+	{
+		// https://wiki.teamfortress.com/wiki/Quick-fix/zh-hans
+		"chi"	"快速医疗枪"
+	}
+	"quickiebomb"
+	{
+		// https://wiki.teamfortress.com/wiki/Quickiebomb_Launcher/zh-hans
+		"chi"	"快速黏弹发射器"
+	}
+	"razorback"
+	{
+		// https://wiki.teamfortress.com/wiki/Razorback/zh-hans
+		"chi"	"电击背脊盾"
+	}
+	"rescueranger"
+	{
+		// https://wiki.teamfortress.com/wiki/Rescue_Ranger/zh-hans
+		"chi"	"火线救兵"
+	}
+	"reserve"
+	{
+		// https://wiki.teamfortress.com/wiki/Reserve_Shooter/zh-hans
+		"chi"	"预备役射手"
+	}
+	"bison"
+	{
+		// https://wiki.teamfortress.com/wiki/Righteous_Bison/zh-hans
+		"chi"	"正义野牛"
+	}
+	"rocketjmp"
+	{
+		// https://wiki.teamfortress.com/wiki/Rocket_Jumper/zh-hans
+		"chi"	"火箭伞兵"
+	}
+	"saharan"
+	{
+		// https://wiki.teamfortress.com/wiki/Saharan_Spy/zh-hans
+		"chi"	"撒哈拉间谍"
+	}
+	"sandman"
+	{
+		// https://wiki.teamfortress.com/wiki/Sandman/zh-hans
+		"chi"	"睡魔"
+	}
+	"scottish"
+	{
+		// https://wiki.teamfortress.com/wiki/Scottish_Resistance/zh-hans
+		"chi"	"苏格兰防御者"
+	}
+	"circuit"
+	{
+		// https://wiki.teamfortress.com/wiki/Short_Circuit/zh-hans
+		"chi"	"短路发生器"
+	}
+	"shortstop"
+	{
+		// https://wiki.teamfortress.com/wiki/Shortstop/zh-hans
+		"chi"	"游击手"
+	}
+	"sodapop"
+	{
+		// https://wiki.teamfortress.com/wiki/Soda_Popper/zh-hans
+		"chi"	"苏打炮手"
+	}
+	"solemn"
+	{
+		// https://wiki.teamfortress.com/wiki/Solemn_Vow/zh-hans
+		"chi"	"希波克拉底的塑像"
+	}
+	"spdelivery"
+	{
+		// https://wiki.teamfortress.com/wiki/Special_Delivery_(item_set)/zh-hans
+		"chi"	"特快专递邮递员（套装）"
+	}
+	"splendid"
+	{
+		// https://wiki.teamfortress.com/wiki/Splendid_Screen/zh-hans
+		"chi"	"辉煌护盾"
+	}
+	"spycicle"
+	{
+		// https://wiki.teamfortress.com/wiki/Spy-cicle/zh-hans
+		"chi"	"神奇的冰柱"
+	}
+	"stkjumper"
+	{
+		// https://wiki.teamfortress.com/wiki/Sticky_Jumper/zh-hans
+		"chi"	"黏弹跳跃者"
+	}
+	"sleeper"
+	{
+		// https://wiki.teamfortress.com/wiki/Sydney_Sleeper/zh-hans
+		"chi"	"悉尼沉睡者"
+	}
+	"turner"
+	{
+		// https://wiki.teamfortress.com/wiki/Tide_Turner/zh-hans
+		"chi"	"力挽狂澜"
+	}
+	"tomislav"
+	{
+		// https://wiki.teamfortress.com/wiki/Tomislav/zh-hans
+		"chi"	"汤姆斯拉夫"
+	}
+	"tribalshiv"
+	{
+		// https://wiki.teamfortress.com/wiki/Tribalman%27s_Shiv/zh-hans
+		"chi"	"部落者刮刀"
+	}
+	"caber"
+	{
+		// https://wiki.teamfortress.com/wiki/Ullapool_Caber/zh-hans
+		"chi"	"木柄手榴弹"
+	}
+	"vitasaw"
+	{
+		// https://wiki.teamfortress.com/wiki/Vita-Saw/zh-hans
+		"chi"	"维塔锯"
+	}
+	"warrior"
+	{
+		// https://wiki.teamfortress.com/wiki/Warrior%27s_Spirit/zh-hans
+		"chi"	"勇士之魂"
+	}
+	"wrangler"
+	{
+		// https://wiki.teamfortress.com/wiki/Wrangler/zh-hans
+		"chi"	"遥控手柄"
+	}
+	"eternal"
+	{
+		// https://wiki.teamfortress.com/wiki/Your_Eternal_Reward/zh-hans
+		"chi"	"永生的回报"
+	}
+
+	// item descriptions
+
+	// ji update: https://wiki.teamfortress.com/wiki/Jungle_Inferno_Update/zh-hans
+	// love & war update: https://wiki.teamfortress.com/wiki/Love_%26_War_Update/zh-hans
+	// gun mettle update: https://wiki.teamfortress.com/wiki/Gun_Mettle_Update/zh-hans
+	// tough break update: https://wiki.teamfortress.com/wiki/Tough_Break_Update/zh-hans
+	// hatless update: https://wiki.teamfortress.com/wiki/Hatless_Update/zh-hans
+	// mym update: https://wiki.teamfortress.com/wiki/Meet_Your_Match_Update/zh-hans
+	// pyromania update: https://wiki.teamfortress.com/wiki/Pyromania_Update/zh-hans
+	// manniversary: https://wiki.teamfortress.com/wiki/Manniversary_Update_%26_Sale/zh-hans
+	// blue moon: https://wiki.teamfortress.com/wiki/Blue_Moon_Pack/zh-hans
+	// war: https://wiki.teamfortress.com/wiki/WAR!_Update/zh-hans
+	"Airblast_PreJI"
+	{
+		"chi"	"所有火焰喷射器压缩空气机制回调到丛林炼狱更新前"
+	}
+	"Airstrike_PreTB"
+	{
+		"chi"	"回调到艰难假日更新前，爆炸起跳过程中不会有爆炸范围减少"
+	}
+	"Minigun_ramp_PreLW"
+	{
+		"chi"	"回调到爱情与战争更新前，转轮机枪不再有刚开火时的伤害和精确度缩水"
+	}
+	"Swords_PreTB"
+	{
+		"chi"	"回调到艰难假日更新前，不会有取出和收回速度减慢"
+	}
+	"Ambassador_PreJI"
+	{
+		"chi"	"回调到丛林炼狱更新前，在所有距离都能做完整的爆头伤害（102）"
+	}
+	"Amputator_PreTB"
+	{
+		"chi"	"回调到艰难假日更新前，手持武器时 +3 生命值/秒，无论用户最近是否受到伤害"
+	}
+	"Atomizer_PreJI"
+	{
+		"chi"	"回调到丛林炼狱更新前，任何时候都能进行三连跳，每次三连跳会受到 10 点伤害"
+	}
+	"Atomizer_PreBM"
+	{
+		"chi"	"回调到蓝月更新前，武器没有完全拿出时可以进行三连跳"
+	}
+	"Axtinguisher_PreLW"
+	{
+		"chi"	"回调到到爱情与战争更新前，任何时候都能对着火敌人做 195 点全暴击伤害，击杀着火敌人后不会提高移动速度"
+	}
+	"Axtinguisher_PreTB"
+	{
+		"chi"	"回调到艰难假日更新前，从背后攻击时会产生爆击，从身前攻击时会产生迷你爆击，击杀着火敌人不会提高移动速度"
+	}
+	"Backburner_PreHat"
+	{
+		"chi"	"回调到无帽更新，伤害 +10%%"
+	}
+	"Backburner_119"
+	{
+		"chi"	"回调到第 119 次更新，伤害 +20%%，没有压缩空气"
+	}
+	"Backburner_Release"
+	{
+		"chi"	"回调到发布，最高生命值 +50，没有压缩空气"
+	}
+	"BaseJumper_PreTB"
+	{
+		"chi"	"回调到艰难假日更新前，可以重新打开降落伞，更好的空中控制，在空中打开降落伞的状态下着火会使气流上升"
+	}
+	"BabyFace_PreGM"
+	{
+		"chi"	"回调到枪魂更新前，没有被击中时速度加成蓄能减少，空中跳跃减少的能量 -25%%"
+	}
+	"BabyFace_Release"
+	{
+		"chi"	"回调到发布，+40%% 准确度，没有弹匣容量减少或被击中时速度加成蓄能减少，速度 -35%%，伤害 -30%%，空中跳跃减少的能量 -100%%"
+	}
+	"Beggars_Pre2013"
+	{
+		"chi"	"回调到 2013 年以前，没有爆炸半径减少，装填过多弹药不会导致炸膛"
+	}
+	"Beggars_PreTB"
+	{
+		"chi"	"回调到艰难假日更新前，没有爆炸半径的减少"
+	}
+	"BlackBox_PreGM"
+	{
+		"chi"	"回调到枪魂更新前，在任何距离攻击都能获得 15 点生命值"
+	}
+	"Bonk_PreJI"
+	{
+		"chi"	"回调到丛林炼狱更新前，在无敌结束后不会减速"
+	}
+	"Booties_PreMYM"
+	{
+		"chi"	"回调到棋逢对手更新前，穿戴者移动速度增加不需要装备盾牌"
+	}
+	"BrassBeast_PreMYM"
+	{
+		"chi"	"回调到棋逢对手更新前，在任何生命值下枪管高速旋转时所受伤害 -20%% (对抗暴击伤害 -6.7%%）"
+	}
+	"Bushwacka_PreLW"
+	{
+		"chi"	"回调到爱情与战争更新前，在任何状况下受由火造成的伤害 -20%%，有随机暴击"
+	}
+	"BuffaloSteak_PreMYM"
+	{
+		"chi"	"回调到棋逢对手更新前，吃掉后马上获得移动速度 +35%% 和伤害 -10%%"
+	}
+	"BuffaloSteak_Release"
+	{
+		"chi"	"回调到发布，吃掉后移动速度 +35%%，穿戴者所受到的伤害转换为迷你暴击，速度加成可以与紧急逃跑手套叠加（比侦察兵快一点）"
+	}
+	"BuffaloSteak_Pre2013"
+	{
+		"chi"	"回调到 2013 年夏季前，吃掉后移动速度 +35%%，穿戴者所受到的伤害转换为迷你暴击，速度加成不可以与紧急逃跑手套叠加"
+	}
+	"Targe_PreTB"
+	{
+		"chi"	"回调到艰难假日更新前，爆炸伤害抗性 +40%%，对余焰免疫，冲锋后获得暴击，没有负面效果移除，消耗 60%% 冲锋条会获得冲锋伤害"
+	}
+	"Claidheamh_PreTB"
+	{
+		"chi"	"回调到艰难假日更新前，生命值 -15，没有穿戴时受到的伤害增加，长时间冲锋转化为被动"
+	}
+	"Carbine_Release"
+	{
+		"chi"	"回调到发布，击杀敌人后获得持续 3 秒的暴击，开火速度 -35%%（原 25%%）"
+	}
+	"Carbine_PreTB"
+	{
+		"chi"	"回调到艰难假日更新前，杀敌后可以获得 8 秒的迷你爆击，开火速度 -35%%（原 25%%）"
+	}
+	"Concheror_PreTB"
+	{
+		"chi"	"回调到艰难假日更新前，+2 生命值/秒，无论用户最近是否受到伤害"
+	}
+	"CowMangler_Pre2013"
+	{
+		"chi"	"回调到 2013 年夏季前，5 发子弹，没有蓄力攻击能量，-10%% 伤害，-5%% 装弹速度"
+	}
+	"CozyCamper_PreMYM"
+	{
+		"chi"	"回调到棋逢对手更新前，在任何蓄力等级下视野不会晃动"
+	}
+	"CritCola_PreMYM"
+	{
+		"chi"	"回调到棋逢对手更新前，移动速度 +25%%，所受伤害 +10%%，攻击后不会打上死亡标记"
+	}
+	"CritCola_PreJI"
+	{
+		"chi"	"回调到丛林炼狱更新前，移动速度 +25%%，所受伤害 +10%%，加成失效后 2 秒内打上死亡标记"
+	}
+	"CritCola_PreJuly2013"
+	{
+		"chi"	"回调到夏季 2013 更新以前，移动速度 +25%%，所受伤害转换为迷你暴击"
+	}
+	"CrocoStyle_Release"
+	{
+		"chi"	"还原发布时套装的效果加成，大于 1 生命值时对爆头免疫；佩戴悉尼沉睡者、达尔文的危险之盾和灌木丛来获得套装加成，不需要帽子"
+	}
+	"DalokohsBar_PreJI"
+	{
+		"chi"	"回调到枪魂更新，可以超量治疗到 400 生命值"
+	}
+	"Darwin_Pre2013"
+	{
+		"chi"	"回调到 2013 年前，最大生命值 +25，没有伤害与伤害抗性修改并且不对余焰免疫"
+	}
+	"Darwin_PreJI"
+	{
+		"chi"	"回调到丛林炼狱更新前，最大生命值 +25，受到的子弹伤害抗性 +15%%（对抗暴击子弹 +5%%），受到的爆炸伤害 -20%%，不对余焰免疫"
+	}
+	"Ringer_PreGM"
+	{
+		"chi"	"回调到枪魂更新前，能捡起弹药包补充隐形能量，6 秒内受到的获得 90%% 的伤害抗性（由受到的伤害减少），没有速度加成，假死后没有余焰免疫"
+	}
+	"Ringer_PreJI"
+	{
+		"chi"	"回调到丛林炼狱更新，和目前的数据一样但是结束隐形状态后可以使用弹药箱，弹药箱内隐形能量 -35%%"
+	}
+	"Degreaser_PreTB"
+	{
+		"chi"	"回调到艰难假日更新前，部署速度 +65%%，伤害 -10%%，余焰伤害 -25%%，没有气爆弹药消耗量增加"
+	}
+	"Disciplinary_PreMYM"
+	{
+		"chi"	"回调到棋逢对手更新前，击中队友后加快双方的移动速度 3 秒"
+	}
+	"DragonFury_Release"
+	{
+		"chi"	"回调到发布，增大了火球大小，击中着火敌人造成额外伤害不需要在火球内部与敌人命中判定碰撞"
+	}
+	"DragonFury_Release_Patchless"
+	{
+		"chi"	"部分回调到发布，增大了火球大小"
+	}
+	"Enforcer_PreGM"
+	{
+		"chi"	"回调到枪魂更新前，非伪装状态下伤害 +20%%，没有攻击穿透抗性"
+	}
+	"Enforcer_Release"
+	{
+		"chi"	"回调到发布，任何状态下伤害 +20%%，有随机暴击，没有攻击穿透抗性，隐形时间增加 0.5 秒"
+	}
+	"Equalizer_PrePyro"
+	{
+		"chi"	"合并并回调到纵火狂更新前；手持武器时：无法得到治疗，无法呼叫医生，不会打上死亡标记，1 生命值下造成 107 伤害"
+	}
+	"Equalizer_PreHat"
+	{
+		"chi"	"合并并回调到无帽更新前；手持武器时：无法得到治疗，无法呼叫医生，不会打上死亡标记，1 生命值下造成 113 伤害"
+	}
+	"Equalizer_Release"
+	{
+		"chi"	"合并并回调到发布；手持武器时：无法得到治疗，无法呼叫医生，不会打上死亡标记；最高 200 生命值时：在 58 生命值下造成 125 伤害，在 20 生命值下造成 150 伤害，在 1 生命值下造成 162 伤害"
+	}
+	"Eureka_SpawnRefill"
+	{
+		"chi"	"传送到出生点可以补给生命值和弹药"
+	}
+	"Eviction_PreJI"
+	{
+		"chi"	"回调到丛林炼狱更新前，手持时不会扣除生命值上限，受到伤害 +20%%"
+	}
+	"Eviction_PreMYM"
+	{
+		"chi"	"回调到枪魂更新，开火速度 +50%%，手持时不会扣除生命值上限并且没有速度加成"
+	}
+	"Expert_Release"
+	{
+		"chi"	"还原发布时套装的效果加成，火焰伤害抗性 +10%；佩戴双管榴弹发射器和木柄手榴弹来获得套装加成，不需要帽子"
+	}
+	"FistSteel_PreJI"
+	{
+		"chi"	"回调到丛林炼狱更新前，没有治疗量减少"
+	}
+	"FistSteel_PreTB"
+	{
+		"chi"	"回调到艰难假日更新前，武器切换时间增加 20%%，没有武器收回速度减少，没有穿戴时所受治疗量的负面作用"
+	}
+	"FistSteel_Release"
+	{
+		"chi"	"回调到发布，没有武器收回速度减少或武器切换时间增加，手持时受到的非近战伤害 -60%%（原 -40%%）"
+	}
+	"Guillotine_PreJI"
+	{
+		"chi"	"回调到丛林炼狱更新前，对眩晕状态玩家爆击，远距离造成迷你爆击，没有重新充能"
+	}
+	"GasJockey_Release"
+	{
+		"chi"	"还原发布时套装的效果加成，穿戴时移动速度 +10%，穿戴时受到子弹伤害 +10%；佩戴脱油剂和强力千斤顶来获得套装加成，不需要帽子"
+	}
+	"GlovesRU_PreTB"
+	{
+		"chi"	"回调到艰难假日更新前，没有生命值上限和收回速度减少，有死亡标记，伤害 -25%%"
+	}
+	"GlovesRU_PrePyro"
+	{
+		"chi"	"回调到纵火狂更新前，没有生命值上线减少，没有死亡标记，伤害 -50%%，手持武器时 -6 生命值/秒（再受伤害那一帧时会跳得高一点），-6 生命值/秒状况下增加跳跃高度"
+	}
+	"Gunboats_Release"
+	{
+		"chi"	"回调到发布，火箭跳跃时受到的爆炸伤害 -75%%"
+	}
+	"Zatoichi_PreTB"
+	{
+		"chi"	"回调到艰难假日更新前，可以快速切换武器，近战范围减少，击杀敌人前不能切换武器，完整的治疗效果，有随机暴击"
+	}
+	"Hibernate_Release"
+	{
+		"chi"	"还原发布时套装的效果加成，穿戴时爆击抗性 +5%%；佩戴黄铜猛兽、水牛排三明治和勇士之魂来获得套装加成，不需要帽子"
+	}
+	"Jag_PreTB"
+	{
+		"chi"	"回调到艰难假日更新前，没有对建筑伤害减少（2 次击打可以摧毁电子工兵）"
+	}
+	"Jag_PreGM"
+	{
+		"chi"	"回调到枪魂更新前，没有对建筑伤害减少（2 次击打可以摧毁电子工兵），没有修理速度减慢，没有开火速度加成"
+	}	
+	"Liberty_Release"
+	{
+		"chi"	"回调到发布，炮弹速度 +40%%，弹匣容量 -25%%"
+	}
+	"LochLoad_PreGM"
+	{
+		"chi"	"回调到枪魂更新前，对任何对象伤害 +20%%"
+	}
+	"LochLoad_2013"
+	{
+		"chi"	"回调到 2014 年以前，伤害 +20%%（15%% 波动），弹匣容量 -50%%，自身伤害 +25%%，没有爆炸半径减少，榴弹不会粉碎"
+	}
+	"Cannon_PreTB"
+	{
+		"chi"	"回调到艰难假日更新前，炮弹速度 +50%%，击中时能保持 60 伤害输出"
+	}
+	"MadMilk_Release"
+	{
+		"chi"	"回调到发布，攻击浑身是牛奶的敌人时可以恢复本次攻击伤害 75%% 的生命值，为队友灭火不会减少冷却时间"
+	}
+	"Gardener_PreTB"
+	{
+		"chi"	"回调到艰难假日更新前，没有开火速度减少"
+	}
+	"Natascha_PreMYM"
+	{
+		"chi"	"回调到棋逢对手更新前，在任何生命值下转动时伤害 -20%%（对抗暴击伤害 -6.7%%）"
+	}
+	"Natascha_PreGM"
+	{
+		"chi"	"回调到枪魂更新前，在任何距离可以降低目标的移动速度，300 发子弹，预热时没有伤害抗性"
+	}
+	"Panic_PreJI"
+	{
+		"chi"	"回调到丛林炼狱更新前，长按开火键装弹，松开来开火，在低生命值下开火速度加快并且弹丸分布扩大"
+	}
+	"Persuader_PreTB"
+	{
+		"chi"	"回调到艰难假日更新前，拾取弹药箱可以回复生命值，冲锋重新充能时间 +100%%，没有最大弹匣容量减少"
+	}
+	"Pomson_PreGM"
+	{
+		"chi"	"增大了判定箱大小，可以穿越团队，没有被击中者的医疗枪能量或隐身能量损失，可以点燃队友的猎人短弓弓箭，做无类型伤害"
+	}
+	"Pomson_Release"
+	{
+		"chi"	"回调到发布，和正义野牛伤害相同，增大了判定箱大小，可以穿越对象，没有被击中者的医疗枪能量或隐身能量损失，可以点燃队友的猎人短弓弓箭，做无类型伤害"
+	}
+	"Pomson_PreGM_Historical"
+	{
+		"chi"	"回调到枪魂更新前，增大了判定箱大小，不可以穿越团队，没有被击中者的医疗枪能量或隐身能量损失，可以点燃队友的猎人短弓弓箭，做无类型伤害"
+	}	
+	"Powerjack_PreGM"
+	{
+		"chi"	"回调到枪魂更新前，保留了原有的一些属性，击杀敌人可以获得 75 生命值并且可以超量治疗"
+	}
+	"Powerjack_Release"
+	{
+		"chi"	"回调到发布，没有移动速度加成或穿戴时受到的伤害增加，击杀敌人可以获得 75 生命值并且可以超量治疗，伤害 +25%%，没有随机暴击"
+	}
+	"Powerjack_Pre2013"
+	{
+		"chi"	"回调到无帽更新，没有移动速度加成或穿戴时受到的伤害增加，击杀敌人可以获得 75 生命值并且可以超量治疗，手持武器时受到的近战伤害 +20%%"
+	}
+	"Pocket_Release"
+	{
+		"chi"	"回调到发布，最高生命值 +15，不受掉落伤害，开火速度 -25%%，受到的火焰伤害 +50%%"
+	}
+	"Pocket_PreBM"
+	{
+		"chi"	"回调到 2018 年以前，击中时最高获得 7 生命值"
+	}
+	"Quickfix_PreTB"
+	{
+		"chi"	"回调到艰难假日更新前，超能冲锋蓄积速度 +25%%，超能冲锋状况下可以携带情报"
+	}
+	"Quickfix_PreMYM"
+	{
+		"chi"	"回调到棋逢对手更新前，超能冲锋蓄积速度 +25%%"
+	}
+	"Quickiebomb_PreMYM"
+	{
+		"chi"	"回调到艰难假日更新，最大蓄力时间 50%%，最大伤害加成 +25%%，弹夹容量 -25%%，黏弹会在 4 秒后消失"
+	}
+	"Razorback_PreJI"
+	{
+		"chi"	"回调到丛林炼狱更新前，可以超量治疗，不能重新充能"
+	}
+	"RescueRanger_PreGM"
+	{
+		"chi"	"回调到枪魂更新前，一发能量弹有 75 建筑治疗量，没有金属消耗，远距离搬运建筑消耗金属 130"
+	}
+	"RescueRanger_PreJI"
+	{
+		"chi"	"回调到丛林炼狱更新前，修复建筑不会消耗金属"
+	}
+	"Reserve_PreTB"
+	{
+		"chi"	"回调到艰难假日更新前，部署 5 秒后空中目标造成迷你爆击，部署速度 +15%%"
+	}
+	"Reserve_PreJI"
+	{
+		"chi"	"回调到丛林炼狱更新前，对压缩气爆击退的敌人造成迷你暴击"
+	}
+	"Bison_PreMYM"
+	{
+		"chi"	"回调到棋逢对手更新前，增大了判定箱大小，可以多次击中同一玩家，以点燃队友的猎人短弓弓箭，做无类型伤害"
+	}
+	"Bison_PreTB"
+	{
+		"chi"	"回调到棋逢对手更新前，增大了判定箱大小，可以多次击中同一玩家，以点燃队友的猎人短弓弓箭，做无类型伤害，旧掉落伤害"
+ 	}
+	"RocketJmp_Pre2013"
+	{
+		"chi"	"回调到 2013 年以前，对手雷自爆嘲讽自杀效果免疫"
+	}
+	"RocketJmp_Release"
+	{
+		"chi"	"回调到发布，对手雷自爆嘲讽自杀效果免疫，穿戴者可以捡起情报，有随机暴击"
+	}
+	"Saharan_Release"
+	{
+		"chi"	"还原发布时套装的效果加成，减小解除隐形声音，增加 0.5 秒额外隐形时间；佩戴陌生人（移除隐身持续时间 +40%%）和永生的回报来获得套装的效果加成，不需要帽子"
+	}
+	"Saharan_ExtraCloak"
+	{
+		"chi"	"还原发布时套装的效果加成，减小解除隐形声音，增加 0.5 秒额外隐形时间；佩戴陌生人和永生的回报（或巫毒刺钉）来获得套装的效果加成，不需要帽子"
+ 	}
+	"Sandman_PreJI"
+	{
+		"chi"	"回调到丛林炼狱更新前，远距离棒球使玩家失去反击能力，15 秒重新充能时间"
+	}
+	"Sandman_PreWAR"
+	{
+		"chi"	"回调到战争！更新前，在所有距离能击晕目标，击晕的目标受到 75%% 伤害，-30 最大生命值，15 秒球重新充能时间"
+	}
+	"Scottish_Release"
+	{
+		"chi"	"回调到发布，炸弹就绪时间减慢 0.4 秒（原 0.8 秒），无开火速度加成"
+	}
+	"Circuit_PreMYM"
+	{
+		"chi"	"回调到棋逢对手更新前，辅助开火能摧毁前方的飞行物，消耗 15 金属"
+	}
+	"Circuit_PreGM"
+	{
+		"chi"	"回调到枪魂更新前，开火能摧毁飞行物（花费 5 金属 + 15 每摧毁的发射物），手持武器时从补给器无法获取金属"
+	}
+	"Circuit_Dec2013"
+	{
+		"chi"	"回调到圣诞节 2013，主要开火可以摧毁飞行物（攻击速度增加，花费 5 金属）"
+	}
+	"Shortstop_PreMnvy_Shove"
+	{
+		"chi"	"回调到曼恩周年庆更新以前，可以快速换弹，没有击退力度减少，使用副武器弹药；可以推开敌人"
+	}
+	"Shortstop_PreMnvy"
+	{
+		"chi"	"回调到曼恩周年庆更新以前，可以快速换弹，没有击退力度减少，使用副武器弹药，不能推开敌人"
+	}
+	"Shortstop_PreGM_Shove"
+	{
+		"chi"	"回调到枪魂更新前，手持武器时受治疗效果 +20%%，所有情况下受到的击退力度 +40%%，使用副武器弹药；可以推开敌人"
+	}
+	"Shortstop_Release_Shove"
+	{
+		"chi"	"回调到发布，0.5 秒内目标速度 -40%%，快速换弹，没有击退力度减少，使用副武器弹药；可以推开敌人"
+	}
+	"Shortstop_Release"
+	{
+		"chi"	"回调到发布，0.5 秒内目标速度 -40%%，快速换弹，没有击退力度减少，使用副武器弹药，不能推开敌人"
+	}
+	"Sodapop_Pre2013"
+	{
+		"chi"	"回调到圣诞节 2013 更新以前，跑步时积聚能量并且自动获取迷你暴击"
+	}
+	"Sodapop_PreMYM"
+	{
+		"chi"	"回调到棋逢对手更新前，跑步时积聚能量"
+	}
+	"Solemn_PreGM"
+	{
+		"chi"	"回调到枪魂更新前，没有开火速度减慢"
+	}
+	"SpDelivery_Release"
+	{
+		"chi"	"还原发布时套装的效果加成，最大生命值 +25；佩戴游击手、疯狂的牛奶和圣灵鲭鱼来获得套装加成，不需要帽子"
+	}
+	"Splendid_PreTB"
+	{
+		"chi"	"回调到艰难假日更新前，爆炸伤害抗性 +15%%，没有冷却速率加成，冲锋后获得暴击，没有负面效果移除，在任何距离获得全冲锋伤害"
+	}
+	"SpyCicle_PreGM"
+	{
+		"chi"	"回调到枪魂更新前，2 秒火焰免疫时间，无声杀手，不能从弹药包恢复计时器"
+	}
+	"StkJumper_Pre2013"
+	{
+		"chi"	"回调到纵火狂更新，最多可以有 8 个黏性炸弹"
+	}
+	"StkJumper_Pre2013_Intel"
+	{
+		"chi"	"回调到纵火狂更新，最多可以有 8 个黏性炸弹，穿戴者可以捡起情报"
+	}
+	"StkJumper_Pre2011"
+	{
+		"chi"	"回调到 2010 年 12 月 22 日：最多可以有 8 个黏性炸弹，穿戴者可以捡起情报，+100%% 从子弹、爆炸和火焰受到的伤害，不会受到自身爆炸伤害，有随机暴击"
+	}
+	"Sleeper_PreBM"
+	{
+		"chi"	"回调到 2018 年以前，开镜爆头并且完整蓄能可以射出让目标周围的玩家浇灌的瓶手道，没有瓶手道冷却时间缩短"
+	}
+	"Sleeper_PreGM"
+	{
+		"chi"	"回调到枪魂更新前，开镜后大于 50%% 蓄能作用 8 秒的瓶手道效果，没有爆头加成"
+	}
+	"Turner_PreTB"
+	{
+		"chi"	"回调到艰难假日更新前，可以做出全暴击，爆炸伤害抗性和火焰伤害抗性 +25%%，冲锋后获得暴击，没有负面效果移除，消耗 60%% 冲锋条会获得冲锋伤害"
+	}
+	"Tomislav_PrePyro"
+	{
+		"chi"	"回调到纵火狂更新前，机枪预热速度 +40%%，没有准确度加成"
+	}
+	"Tomislav_Release"
+	{
+		"chi"	"回调到发布，机枪预热速度 +75%%，没有准确度加成"
+	}
+	"TribalShiv_Release"
+	{
+		"chi"	"回调到发布，击中后使对方持续失血 8 秒，伤害 -35%%"
+	}
+	"Caber_PreGM"
+	{
+		"chi"	"回调到枪魂更新前，近战爆炸能做出 175+ 伤害"
+	}
+	"VitaSaw_PreJI"
+	{
+		"chi"	"回调到丛林炼狱更新前，死亡时能保持 20%% 的超能冲锋能量"
+	}
+	"Warrior_PreTB"
+	{
+		"chi"	"回调到艰难假日更新前，每次攻击后会获得 10 点的生命值回复，没有穿戴时受到的伤害加成，最大生命值 -20"
+	}
+	"Wrangler_PreGM"
+	{
+		"chi"	"回调到枪魂更新前，护盾保护下可以没有伤害和维修效果减少，工程师死亡后只会瘫痪 1 秒"
+	}
+	"Wrangler_PreLW"
+	{
+		"chi"	"回调到爱情与战争更新，护盾保护下可以没有伤害和维修效果减少，工程师死亡后只会瘫痪 1 秒，射程之外的目标会有距离衰减，子弹伤害根据工程师的位置计算距离衰减"
+	}
+	"Eternal_PreJI"
+	{
+		"chi"	"回调到丛林炼狱更新前，不能伪装，没有隐身能量消耗速度减少"
+	}
+}

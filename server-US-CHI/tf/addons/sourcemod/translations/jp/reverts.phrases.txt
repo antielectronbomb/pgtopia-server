@@ -1,0 +1,145 @@
+"Phrases"
+{
+	// class names
+	// tf/resource/tf_japanese.txt:36-44
+	"SCOUT"
+	{
+		"jp"	"スカウト"
+	}
+	"SNIPER"
+	{
+		"jp"	"スナイパー"
+	}
+	"SOLDIER"
+	{
+		"jp"	"ソルジャー"
+	}
+	"DEMOMAN"
+	{
+		"jp"	"デモマン"
+	}
+	"MEDIC"
+	{
+		"jp"	"メディック"
+	}
+	"HEAVY"
+	{
+		"jp"	"ヘビー"
+	}
+	"PYRO"
+	{
+		"jp"	"パイロ"
+	}
+	"SPY"
+	{
+		"jp"	"スパイ"
+	}
+	"ENGINEER"
+	{
+		"jp"	"エンジニア"
+	}
+
+	// ui
+	// Weapon reverts literally translated as "restored weapons" (復元武器)
+	// I barely know Japanese and only know the alphabet, basic grammar, and basic Kanji, so I am using the help of machine translation (DeepL).
+	"REVERT_LOADOUT_CHANGE_INIT"
+	{
+		"jp"	"復元武器はロードアウトにある："
+	}
+	"REVERT_LOADOUT_CHANGE_DISABLE_HINT"
+	{
+		"jp"	"これらのメッセージは、!revertのメニューまたは!toggleinfoで無効にできる。"
+	}
+	"REVERT_REVERTS_DISABLED"
+	{
+		"jp"	"復元武器は使用不可"
+	}
+	"REVERT_PRINT_TO_CONSOLE_HINT"
+	{
+		"jp"	"コンソールに出力される復元武器の情報"
+	}
+	"REVERT_ENABLED_REVERTS_HINT"
+	{
+		"jp"	"このサーバーでは、復元武器が有効になっています："
+	}
+	"REVERT_EMPTY_REVERTS"
+	{
+		"jp"	"全ての復元武器のアイテムのCVARがオフ"
+	}
+	"REVERT_INVALID_TEAM"
+	{
+		"jp"	"このコマンドを使用するには、チームに所属している必要があります。"
+	}
+	"REVERT_INVALID_CLASS"
+	{
+		"jp"	"このコマンドを使用するには、クラスが有効である必要があります。"
+	}
+	"REVERT_ENABLED_CLASS_REVERTS_HINT"
+	{
+		"jp"	"復元武器は現在%tで有効になっている："
+	}
+	"REVERT_EMPTY_CLASS_REVERTS"
+	{
+		"jp"	"全ての%tの復元武器がオフ"
+	}
+	"REVERT_LOADOUT_CHANGE_ENABLED"
+	{
+		"jp"	"ロードアウト変更時に復元の武器情報を表示するようにした。ロードアウトを変更すると情報が表示される。"
+	}
+	"REVERT_LOADOUT_CHANGE_DISABLED"
+	{
+		"jp"	"ロードアウト変更時の復原武器情報表示を無効化。!toggleinfoと入力するか、復元武器メニューを開いて情報を再度表示する。."
+	}
+	"REVERT_MENU_TITLE"
+	{
+		"jp"	"復元武器"
+	}
+	"REVERT_MENU_SHOW_CLASSINFO"
+	{
+		"jp"	"現在のクラスの復元武器を表示する"
+	}
+	"REVERT_MENU_SHOW_ALL"
+	{
+		"jp"	"各復元武器に関する情報を表示する"
+	}
+	"REVERT_MENU_TOGGLE_LOADOUT_CHANGE"
+	{
+		"jp"	"ロードアウトの変更に関する情報をトグルする"
+	}
+
+	// item names
+	// Reference for Weapon Names: https://wiki.teamfortress.com/wiki/Weapons/ja
+	// A lot of weapons don't have Japanese names in the TF2 wiki, so the English form is used instead.
+	// Apparently the Japanese localization for TF2 is unfinished.
+	"airblast"
+	{
+		// https://wiki.teamfortress.com/wiki/Compression_blast/ja
+		"jp"	"エアーブラスト"
+	}
+	"miniramp"
+	{
+		"jp"	"全てのミニガン"
+	}
+	"swords"
+	{
+		"jp"	"全ての剣"
+	}
+	"bonk"
+	{
+		"jp"	"喉ごしガツン! アトミックパンチ"
+	}
+	"critcola"
+	{
+		"jp"	"クリティコーラ"
+	}
+	"zatoichi"
+	{
+		"jp"	"ハーフ座頭市"
+	}
+	"natascha"
+	{
+		"jp"	"ナターシャ"
+	}
+
+	// TODO: item descriptions
+}
