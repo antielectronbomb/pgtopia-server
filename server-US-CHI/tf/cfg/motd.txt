@@ -1,5 +1,6 @@
-Server Schedule: 8PM EST EVERY DAY
+Server Schedule: DAILY 8PM EST (US) & 8PM CET (EU)
 Visit our website for more info: PGTOPIA.BEER
+Steam Group: https://steamcommunity.com/groups/pgtopia
 RULES:
 1. No cheating and hacking
 2. No NSFW sprays/images, no exceptions
@@ -12,4 +13,4 @@ COMMANDS:
 !scramble - Vote to scramble teams
 !rtv - Vote to rock the vote (vote to switch maps)
 !rtd - Roll the dice
-!vm - Adjust voicechat volume
+!vm / !voicemanager - Adjust voicechat volume
