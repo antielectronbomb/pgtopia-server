@@ -50,6 +50,7 @@ ctf_barn_fix4
 //ctf_convoy_v2
 ctf_convoy_v4
 ctf_doublecross
+ctf_haarp
 ctf_landfall
 ctf_turbine
 koth_acreage_final
@@ -88,16 +89,15 @@ wacky_races_v2
 
 // WORKSHOP MAPS
 workshop/cp_balloon_race_v11.ugc3321998709
-workshop/cp_caribbean_b4.ugc2868099268
-workshop/cp_crackhouse_v2.ugc3570603940
+// workshop/cp_caribbean_b4.ugc2868099268
+// workshop/cp_crackhouse_v2.ugc3570603940
 // workshop/cp_kyuko_b2b.ugc3726377415
 workshop/cp_turbine_a1.ugc3559794241
 workshop/cp_universe.ugc3366974548
 workshop/cp_wafflehouse_g_a2.ugc2873957684
 // workshop/ctf_free2fort.ugc1090010928
-ctf_vikings_final_nonsteam
 workshop/ctf_badlands.ugc3593576429
-workshop/ctf_vikings_final.ugc454919847
+// workshop/ctf_vikings_final.ugc454919847
 workshop/garbage_day.ugc2718239516
 workshop/koth_americana_rc1a.ugc2864231357
 workshop/koth_arctic_b8.ugc460499484
