@@ -93,7 +93,7 @@ workshop/cp_balloon_race_v11.ugc3321998709
 // workshop/cp_crackhouse_v2.ugc3570603940
 // workshop/cp_kyuko_b2b.ugc3726377415
 workshop/cp_turbine_a1.ugc3559794241
-workshop/cp_universe.ugc3366974548
+// workshop/cp_universe.ugc3366974548
 workshop/cp_wafflehouse_g_a2.ugc2873957684
 // workshop/ctf_free2fort.ugc1090010928
 workshop/ctf_badlands.ugc3593576429
